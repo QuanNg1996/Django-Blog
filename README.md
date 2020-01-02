@@ -1,1 +1,1 @@
-Django-Blog
+Welcome to the Django-Blog!
