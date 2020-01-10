@@ -22,11 +22,18 @@ BASE_DIR = Path(__file__).resolve(strict=True).parents[1]
 # See https://docs.djangoproject.com/en/dev/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-# SECRET_KEY = '+b3p7jb$@%3uo2nabe+avjoposs@5vseo0ei^me@1m1wp2$jzw'
-SECRET_KEY = os.environ.get('SECRET_KEY')
+# (For LocalHost)
+SECRET_KEY = '+b3p7jb$@%3uo2nabe+avjoposs@5vseo0ei^me@1m1wp2$jzw'
+# (For Heroku App)
+# SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = (os.environ.get('DEBUG_VALUE') == 'True')
+
+# (For LocalHost)
+DEBUG = True
+
+# (For Heroku App)
+# DEBUG = (os.environ.get('DEBUG_VALUE') == 'True')
 
 ALLOWED_HOSTS = ['awesomeblogapp.herokuapp.com']
 
@@ -144,11 +151,8 @@ EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_PASS')
 
 django_heroku.settings(locals())
 
-# os.environ.get('EMAIL_USER')
-# os.environ.get('EMAIL_PASS')
 
-# quanguyen250@gmail.com
-# 'epqc gnrr zrvo grnd'
+
 
 
 
