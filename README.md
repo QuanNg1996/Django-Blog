@@ -1,5 +1,5 @@
 Welcome to the Django-Blog!
 
-Go to this link to check out the Blog page!
+Click on the link below to have a look at the Blog Page!
 
 https://awesomeblogapp.herokuapp.com/
