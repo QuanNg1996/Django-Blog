@@ -30,7 +30,7 @@ SECRET_KEY = '+b3p7jb$@%3uo2nabe+avjoposs@5vseo0ei^me@1m1wp2$jzw'
 # SECURITY WARNING: don't run with debug turned on in production!
 
 # (For LocalHost)
-DEBUG = True
+DEBUG = False
 
 # (For Heroku App)
 # DEBUG = (os.environ.get('DEBUG_VALUE') == 'True')
