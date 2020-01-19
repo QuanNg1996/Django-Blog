@@ -1,10 +1,10 @@
-Welcome to the Django-Blog!
+#Welcome to the Django-Blog!
 
-Click on the link below to have a look at the Blog Page!
+##Click on the link below to have a look at the Blog Page!
 
 https://awesomeblogapp.herokuapp.com/
 
-Guest Authentication:
+#Guest Authentication:
 
 Login: GuestUser123
 
