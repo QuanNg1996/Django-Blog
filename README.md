@@ -1,11 +1,24 @@
-Welcome to the Django-Blog!
+# Welcome to the Django-Blog!
 
-Click on the link below to have a look at the Blog Page!
+This blog allows you to record your opinions, stories, and other writings as well as photos.
+
+## Deployment
+
+This website was deployed on the heroku cloud.
+
+## Built With
+
+* Python - Programming Language
+* Django - The Web framework
+* BootStrap - CSS framework
+
+## Website
 
 https://awesomeblogapp.herokuapp.com/
 
-Guest Authentication:
+## Guest Authentication
 
-Login: GuestUser123
+* Login: GuestUser123
+* Password: Djangoblog123
 
-Password: Djangoblog123
+
