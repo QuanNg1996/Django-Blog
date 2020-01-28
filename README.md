@@ -1,4 +1,4 @@
-# Welcome to the Django-Blog!
+# Welcome to the Blog!
 
 This blog allows you to record your opinions, stories, and other writings as well as photos.
 
