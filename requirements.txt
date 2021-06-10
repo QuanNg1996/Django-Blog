@@ -4,7 +4,7 @@ astroid==2.3.3
 attrs==19.3.0
 autopep8==1.4.4
 dj-database-url==0.5.0
-Django==3.0.1
+Django==3.1.12
 django-crispy-forms==1.8.1
 django-heroku==0.3.1
 execnet==1.7.1
